@@ -15,7 +15,7 @@ A terraform module to create and maintain SSL certs through AWS ACM.
 ## Usage 
 ```hcl
 module "acm_cert" {
-	source = "../../terraform-aws-acm"
+	source = "git::https://github.com/appzen-oss/terraform-aws-acm.git?ref=master"
 	dns_parent_zone_name = "${var.dns_parent_zone_name}"
 	acm_cert_domain      = "${var.acm_cert_domain}"
 	environment          = "${var.environment}"
