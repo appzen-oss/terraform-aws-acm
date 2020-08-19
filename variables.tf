@@ -1,12 +1,11 @@
-
-variable "dns_parent_zone_name" {
-
+variable "acm_cert_domain" {
+  description = "Certificate domain name."
 }
 
-variable "acm_cert_domain" {
-
+variable "dns_parent_zone_name" {
+  description = "DNS name of the parent zone."
 }
 
 variable "environment" {
-
+  description = "Environment (ex: `dev`, `qa`, `stage`, `prod`)."
 }
