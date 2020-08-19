@@ -23,7 +23,7 @@ module "acm_cert" {
 ```
 ## Inputs
 | Name | Description | Type  | Required |
-|------|-------------|:----:|:-----:|:-----:|
+|------|-------------|----|:-----:|
 | acm\_cert\_domain | Domain name of ACM-managed certificate | string |  yes |
 | dns_parent_zone_name | DNS name of the parent zone | string |  yes |
 | environment | Environment (ex: `dev`, `qa`, `stage`, `prod`).|string| yes|
